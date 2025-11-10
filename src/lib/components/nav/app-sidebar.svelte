@@ -52,6 +52,10 @@
 				url: '/docs/StructureFlottante/Derive'
 			},
 			{
+				name: 'Gouvernail',
+				url: '/docs/StructureFlottante/Gouvernail'
+			},
+			{
 				name: 'Études',
 				url: '/docs/StructureFlottante/Etudes'
 			},

@@ -23,7 +23,7 @@ Le modèle 3D des flotteurs est donné ci-dessous :
 
 
 ### Fixation des Flotteurs à la Coque
-Les flotteurs seront accrochés à la coque principale par **3 tubes en aluminium** d'un diamètre extérieur de **60 mm** et d'une épaisseur de **5 mm**.
+Les flotteurs seront accrochés à la coque principale par **3 tubes en aluminium** (les bras des flotteurs) d'un diamètre extérieur de **60 mm** et d'une épaisseur de **5 mm**.
 
 Des **brides de fixation** seront installées sur des **bastaings** fixés au squelette en contreplaqué des flotteurs. Voir schéma ci-dessous :
 

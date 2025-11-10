@@ -5,7 +5,7 @@ description: Description du code de la commande du volet
 
 # Commande volet
 
-Les volets sont commandés à l’aide de vérins déjà acquis par l’association. Le mouvement de translation du vérin est transformé en rotation du mât du volet grâce à un système de poulies et de cordes (voir [Voiles](/docs/VoilesMats/Voile#syst-me-de-commande-volet)). Afin de vérifier la faisabilité de ce mécanisme, un code Python a été développé pour calculer l’allongement de la corde en fonction de l’angle du volet. 
+Les volets sont commandés à l’aide de vérins déjà acquis par l’association. Le mouvement de translation du vérin est transformé en rotation du mât du volet grâce à un système de poulies et de cordes (voir [Voiles](../VoilesMats/Voile.md#système-de-commande-volet)). Afin de vérifier la faisabilité de ce mécanisme, un code Python a été développé pour calculer l’allongement de la corde en fonction de l’angle du volet. 
 La relation entre l’angle du volet et la longueur de la corde est probablement non linéaire, car elle dépend de fonctions trigonométriques telles que le cosinus et le sinus.
 
 Ce code comprend une partie calcul et une partie affichage. Le calcul de la longueur de la corde en fonction de l’angle est réalisé de manière discrète ; une fonction continue pourrait être déterminée, mais cela n’a pas été jugé nécessaire dans ce cas. Pour la commande des volets, une telle fonction sera probablement requise.

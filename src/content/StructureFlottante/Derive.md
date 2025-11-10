@@ -5,6 +5,7 @@ description: Description de la dérive
 
 # Dérive
 
+## Ancienne idée
 La **dérive** se logera dans un puits de dérive et sera statique. Elle sera fixée par **3 vis** (*M16 pour le moment*) de manière à ce que chaque vis supporte un effort et que les moments induits par l'eau sur la dérive soient annulés efficacement. Les trois vis sont situées au-dessus de la ligne de flottaison, pour un poids total de la coque de **540 kg**.
 
 Les dimensions de la dérive sont fournies par les plans suivants (Conception 3D sur Fusion360 : "*Derive/DeriveZephyr*") :
@@ -38,3 +39,6 @@ Afin de faciliter cette opération, il est proposé d'ajouter des **aimants** da
 <img src="/images/structure/PuitsDeriveAutoLock.png" width=400 alt="Plan du puits de dérive auto-lock" title="Plan du puits de dérive auto-lock">  
 *Les parties rouges sur le plan sont des goupilles (optionnelles). La dérive tient en place grâce à des encoches et une barre de retenue. Pour faciliter le montage, des aimants ont été intégrés dans le puits de dérive et dans la dérive.*
 
+## Nouvelle idée 
+
+Faire un vrai puit de dérive (un trou dans la coque).

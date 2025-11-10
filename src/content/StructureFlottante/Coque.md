@@ -25,10 +25,6 @@ La construction de la coque repose sur 4 parties principales :
 
 ### Squelette
 
-
-<!-- Comprends pas ce que veut dire la phrase dessous. Les traverses on en parle pas ? Et les dessus/dessous ? -->
-
-
 Le squelette comporte des encoches spécifiques sur chaque couple pour s’assembler correctement :
 
 - Couple 2 : **102.5 mm**  
@@ -38,6 +34,10 @@ Le squelette comporte des encoches spécifiques sur chaque couple pour s’assem
 - Couple 6 : **160 mm**  
 - Couple 7 : **150 mm**  
 - Couple 8 : **140 mm**  
+
+Le couple 1 ne fait pas partie du puzzle, il est monté avec le nez.
+Il ne se fixe pas sur les traverses (les long cotés verticaux) du squelette contrairement aux autres. 
+La partie horyzontale (par rapport au sol) haute du CP a été séparé en 2 dans le plan YZ et sera vissé sur l'armature et collé sur le PS. Le CP du bas est coupé en 4 dans la longueur et la largeur. Il fait parti du puzzle et possède des encoches pour pouvoir le placer correctement.
 
 ![Squelette du Zéphyr](/images/structure/Squelette.png)
 
@@ -55,9 +55,13 @@ Ces chevrons traversent toute la longueur du bateau, de l’avant à l’arrièr
 
 ![Armature du Zéphyr](/images/structure/StructureChevronCoque.png)
 
+Des renforts dans l'armature sont positionnés pour fixer les supports des mâts. Les supports seront vissés aux renforts grâce à des équerres d'assemblage 30 I type rainure 6. 
+
+Il y a aussi des chevrons (...x...mm) qui sont posés afin de partitionner en 3, la boîte où la dérive est positionnée. (Cf [Page derive](/docs/StructureFlottante/Derive))
+
 ### Forme de la coque
 
-La **forme de la coque** est créée grâce à des blocs de polystyrènes façonné par un partenaire (iXblue), ça donne la forme de la coque à la coque. Plus simple d'avoir un support pour faire la stratification.
+La **forme de la coque** est créée grâce à des blocs de polystyrènes façonné par un partenaire (iXblue), qui permet de donner la forme de la coque à la future coque. Effectuer une stratification est plus simple si il y a un support sur lequel s'appuyer.
 
 ### Nez
 
@@ -182,3 +186,8 @@ La distance entre le puits de dérive et le bord de la boîte étant restreinte,
 - **Capteur hygrométrique**
 
 
+## Fixation entre coque et flotteurs
+
+Ces bras fixés aux flotteurs seront également fixés à la coque par des brides de fixation. (Cf [Page flotteur](/docs/StructureFlottante/Flotteur###Fixation-des-Flotteurs-à-la-Coque))
+
+Sur les bras des flotteurs seront placés des panneaux solaires qui permettront d'alimenter les batteries du **Zéphyr**, ce qui permettra d'alimenter tout les systèmes. 
