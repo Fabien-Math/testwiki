@@ -43,20 +43,20 @@ Dans la **boîte n°3**, il est prévu d'installer le **contrôleur de charge** 
 | Autonomie en mode normal sans source de puissance apportée | Temps d'utilisation | 72 h | - 6 h |
 | Autonomie en mode dégradé sans source de puissance apportée | Temps d'utilisation | 7 jours | - 1/2 jour |
 | Avoir une batterie de secours pour envoyer des signaux de détresse* | Temps d'utilisation | 7 jours | / |
-| Respect du budget | Prix | < 2500 € | 1000 € |
+| Respect du budget | Prix | 2500 € | 1000 € |
 | Fiabilité, robustesse et durabilité | Matériaux et équipement résistant dans le temps | / | / |
 | Les batteries doivent pouvoir rentrer dans les boîtes | / | / | / |
 | Les panneaux solaires doivent loger sur les bras des flotteurs | Dimensions : 125x110 cm | / | / |
 | Les panneaux solaires doivent résister au milieu marin | Durabilité | Excellente | / |
-| Être capable de charger les batteries en plus d'alimenter le système lors de conditions normales | Ratio $\frac{Production}{Consommation}$ | > 1 | / |
+| Être capable de charger les batteries en plus d'alimenter le système lors de conditions normales | Ratio $\frac{Production}{Consommation}$ | 1 | / |
 
 *Consommation inférieure à 1 Wh avec déclenchement automatique en cas d'avarie majeure. 
 
 
 # Schéma électrique
 
-> [!WARNING]
-> Le schéma électrique est à compléter. Il ne représente pas toutes les connexions à ce jour !
+**WARNING**
+Le schéma électrique est à compléter. Il ne représente pas toutes les connexions à ce jour !
 
 ## Esquisse du schéma électrique du Zéphyr
 
