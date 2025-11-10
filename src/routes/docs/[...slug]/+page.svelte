@@ -34,13 +34,6 @@
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:alt" content="Svelte FireKit - {title}" />
 	
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content="https://svelte-firekit.com/logo.svg" />
-	<meta name="twitter:creator" content="@code_gio" />
-	
 	<!-- Article structured data -->
 	<script type="application/ld+json">
 		{

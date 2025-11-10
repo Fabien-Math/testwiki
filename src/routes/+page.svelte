@@ -220,7 +220,7 @@ let fileData: File;
 	<meta property="og:title" content="Wiki Zéphyr" />
 	<meta property="og:description" content="Le wiki officiel du projet Zéphyr par l'association HydroSharks" />
 	<meta property="og:url" content="https://svelte-firekit.com/" />
-	<meta property="og:site_name" content=Wiki Zéphyr" />
+	<meta property="og:site_name" content="Wiki Zéphyr" />
 	<meta property="og:image" content="https://svelte-firekit.com/logo.svg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
