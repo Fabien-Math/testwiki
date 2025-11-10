@@ -16,7 +16,7 @@
 		<AutoBreadcrumb />
 		<div class="ml-auto flex items-center gap-2">
 			<Button
-				href="https://github.com/code-gio/svelte-firekit"
+				href="https://github.com/Fabien-Math/testwiki"
 				variant="ghost"
 				size="sm"
 				class="dark:text-foreground hidden sm:flex"

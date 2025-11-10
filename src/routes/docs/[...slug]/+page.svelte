@@ -28,11 +28,11 @@
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content={url} />
-	<meta property="og:site_name" content="Svelte FireKit" />
+	<meta property="og:site_name" content="Wiki Zéphyr" />
 	<meta property="og:image" content="https://svelte-firekit.com/logo.svg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
-	<meta property="og:image:alt" content="Svelte FireKit - {title}" />
+	<meta property="og:image:alt" content="Wiki Zéphyr - {title}" />
 	
 	<!-- Article structured data -->
 	<script type="application/ld+json">
@@ -50,10 +50,10 @@
 			},
 			"publisher": {
 				"@type": "Organization",
-				"name": "Svelte FireKit",
+				"name": "HydroSharks",
 				"logo": {
 					"@type": "ImageObject",
-					"url": "https://svelte-firekit.com/logo.svg"
+					"url": "https://hydrosharks.eu"
 				}
 			},
 			"mainEntityOfPage": {
