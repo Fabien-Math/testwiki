@@ -31,7 +31,7 @@ La solution envisagée pour monter la dérive (24/02/2024) consiste à **lever l
 
 Afin de faciliter cette opération, il est proposé d'ajouter des **aimants** dans le puits de dérive et dans la dérive elle-même pour guider celle-ci pendant l'installation.
 
-```note
+```text
 *Les solutions écartées incluent l'option de mettre la dérive en place une fois le bateau dans l'eau à l'aide d'un plongeur. Cette méthode présente des risques pour le plongeur, car le bateau pèsera au minimum 600 kg une fois tous les composants et lests installés. De plus, il serait difficile de contrôler le bateau au moment de l'installation. Une autre solution, déjà envisagée, consiste à ajouter un système de clips (cf. image ci-dessous ou conception 3D sur Fusion360 : Derive/Derive auto-lock), mais cela serait bien plus compliqué à mettre en œuvre.*
 ```
 
