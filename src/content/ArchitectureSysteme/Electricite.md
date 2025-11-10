@@ -9,9 +9,9 @@ Pour alimenter les équipements externes des boites, une interface de connexion 
 
 Le bateau est alimenté en électricité par **deux panneaux solaires de 300 W**.
 
-```tip
+**TIP**
 Il serait utile de vérifier si de nouveaux panneaux plus performants sont disponibles, car ceux-ci ont été choisis le *30/07/2023*.
-```  
+
 
 Deux faisceaux de câbles sont prévus :  
 1. **Un faisceau pour les câbles de puissance**, qui alimente les différents équipements.  
