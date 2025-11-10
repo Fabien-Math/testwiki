@@ -12,7 +12,7 @@ Deux options sont possibles pour l'installation des capteurs :
 1. Une boîte dans laquelle les sondes et capteurs sont en contact direct avec l'eau.
 2. Un mât sur lequel sont fixés les différents capteurs.
 
-```tip
+```text
 Pour le moment, l'idée d'un mât semble la plus prometteuse car elle permet une plus grande facilité d'accès pour les différents laboratoires. De plus, un mât permet d'atteindre différentes profondeurs, offrant ainsi une meilleure flexibilité pour les mesures.
 ```
 
