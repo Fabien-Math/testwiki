@@ -1,5 +1,6 @@
 ---
-sort: 3
+title: Baie de capteurs
+description: Description de la baie de capteurs
 ---
 
 # Baie de capteur

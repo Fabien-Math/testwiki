@@ -1,5 +1,6 @@
 ---
-sort: 1
+title: Voiles
+description: Description des voiles
 ---
 
 # Voiles

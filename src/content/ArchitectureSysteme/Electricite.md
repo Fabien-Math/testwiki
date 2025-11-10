@@ -1,5 +1,6 @@
 ---
-sort: 3
+title: Électricité
+description: Description de l'électricité
 ---
 
 # Électricité
@@ -28,7 +29,7 @@ Pour éviter les interférences et le bruit dans les signaux, notamment pour ceu
 
 Les faisceaux électriques sont des tubes en **PVC**, dotés de raccords en **T** pour diriger les câbles vers les bonnes boîtes. Ils seront installés aussi haut que possible pour éviter que l'eau ne pénètre à l'intérieur en cas d'avarie.
 
-De plus, la baie de capteurs est alimentée par le haut de chaque côté par des **flexibles étanches** : un pour l'information et un pour la puissance, comme décrit dans l'[arrangement](BaieDeCapteur#arrangement) de la baie de capteurs. C'est pourquoi les faisceaux seront installés à l'extérieur.
+De plus, la baie de capteurs est alimentée par le haut de chaque côté par des **flexibles étanches** : un pour l'information et un pour la puissance, comme décrit dans l'[arrangement](/docs/StructureFlottante/BaieDeCapteur#arrangement) de la baie de capteurs. C'est pourquoi les faisceaux seront installés à l'extérieur.
 
 Dans la **boîte n°3**, il est prévu d'installer le **contrôleur de charge** ainsi que le **boîtier à fusibles**. Les deux seront montés sur des rails verticaux à l'intérieur de la boîte, afin de faciliter leur manipulation et entretien.
 

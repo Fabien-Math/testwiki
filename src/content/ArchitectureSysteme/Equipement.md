@@ -1,7 +1,7 @@
 ---
-sort: 2
+title: Équipement
+description: Description des équipements présents sur le Zéphyr
 ---
-
 # Équipements
 
 

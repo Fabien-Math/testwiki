@@ -1,5 +1,6 @@
 ---
-sort: 2
+title: Mâts
+description: Description des mâts
 ---
 
 # Mâts

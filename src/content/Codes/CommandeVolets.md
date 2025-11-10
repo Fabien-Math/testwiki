@@ -1,5 +1,6 @@
 ---
-sort: 1
+title: Code command du volet
+description: Description du code de la commande du volet
 ---
 
 # Commande volet

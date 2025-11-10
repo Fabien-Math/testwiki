@@ -1,5 +1,6 @@
 ---
-sort: 1
+title: Coques
+description: Description de la coque
 ---
 
 # Coque

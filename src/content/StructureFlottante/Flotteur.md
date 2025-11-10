@@ -1,5 +1,6 @@
 ---
-sort: 2
+title: Flotteurs
+description: Description des flotteurs
 ---
 
 # Flotteur
