@@ -9,7 +9,7 @@ const getShikiHighlighter = async () => {
 	if (!shikiHighlighterPromise) {
 		shikiHighlighterPromise = createHighlighter({
 			themes: ['github-dark', 'github-light'],
-			langs: ['javascript', 'typescript', 'svelte', 'html', 'css', 'bash', 'markdown', 'json', 'dotenv','text']
+			langs: ['javascript', 'typescript', 'svelte', 'html', 'css', 'bash', 'markdown', 'json', 'dotenv', 'text', 'python', 'yaml', 'cpp', 'c', 'java', 'rust', 'go']
 		});
 	}
 	return shikiHighlighterPromise;
