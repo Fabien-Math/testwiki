@@ -11,6 +11,8 @@ Le profil d'aile prévue pour les voiles est le même que celui des [**AC-72**](
 
 <img src="images/profile_voile_zephyr.png" width=400 title="Profil d'aile des voiles du Zéphyr" alt="Profil ailes Zéphyr">
 
+![image](images/profile_voile_zephyr.png)
+
 Le tissu ripstop a été retenu pour la fabrication des voiles, en raison de son tissage spécifique qui limite la propagation des déchirures. Les couleurs des voiles ont été définies en fonction de critères de visibilité : les voiles principales sont blanches afin d'assurer une bonne visibilité de nuit, tandis que les volets sont orange pour être facilement repérables de jour. Ce choix de couleurs vise également à éviter toute confusion avec le balisage maritime, le orange n'étant pas utilisé dans ce contexte.
 
 ## Plan principal
