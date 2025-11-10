@@ -1,5 +1,8 @@
 <script lang="ts">
-	import NavDocuments from './nav-components.svelte';
+	import NavDocuments from './nav-structure.svelte';
+	import NavDocuments from './nav-voiles.svelte';
+	import NavDocuments from './nav-codes.svelte';
+	import NavDocuments from './nav-architecture.svelte';
 	import NavMain from './nav-main.svelte';
 	import NavSecondary from './nav-secondary.svelte';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
@@ -31,7 +34,7 @@
 		],
 
 		
-		structureFlottante: [
+		structure: [
 			{
 				name: 'Coque',
 				url: '/docs/StructureFlottante/Coque'
@@ -55,7 +58,7 @@
 		],
 
 
-		voilesMats: [
+		voiles: [
 			{
 				name: 'Voiles',
 				url: '/docs/VoilesMats/Voile'
@@ -74,7 +77,7 @@
 			},
 		],
 
-		architectureSysteme: [
+		architecture: [
 			{
 				name: 'Architecture système',
 				url: '/docs/ArchitectureSysteme/SystemArchitecture'
