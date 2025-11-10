@@ -64,8 +64,8 @@ La **forme de la coque** est créée grâce à des blocs de polystyrènes façon
 Le **nez** du navire sera fixé à l’aide de vis M6. L’étanchéité sera assurée par l’utilisation d’inserts et de joints, tout en conservant la possibilité de démonter le nez pour faciliter la sortie du navire du local. Des perçages ont été réalisés dans le polystyrène pour y insérer des tubes en PVC, lesquels seront intégrés à la stratification. Afin de garantir l’étanchéité, ces tubes seront obturés à l’aide de bouchons en néoprène.
 
 
-<img src="images/Schema_fixation_nez_bateau.JPEG" width=400 alt="Schéma de fixation du nez au bateau" width=400>
-<img src="images/Nez3D.png" width=400 alt="Nez 3D du bateau" width=300>
+<img src="images/Schema_fixation_nez_bateau.JPEG" width=400 alt="Schéma de fixation du nez au bateau">
+<img src="images/Nez3D.png" width=400 alt="Nez 3D du bateau">
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -180,7 +180,5 @@ La distance entre le puits de dérive et le bord de la boîte étant restreinte,
 -
 - **Capteur de température**
 - **Capteur hygrométrique**
-
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
