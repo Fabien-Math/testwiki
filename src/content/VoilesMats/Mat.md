@@ -31,22 +31,22 @@ Nous avons donc décidé de modifier le système initialement prévu, en adoptan
 
 Le nouveau système est composé de profilés en aluminium de référence : `Profilé aluminium 30x30L Type I rainure 6`. Les profilés sont coupés sur mesure par notre fournisseur, ce qui évite toute erreur de coupe de notre part.
 
-<img src="images/Profile-aluminium-30x30L-Type-I-rainure-6.webp" width=400 title="Profilé aluminium 30x30L Type I rainure 6" alt="Profilé aluminium 30x30L Type I rainure 6">
+<img src="/images/voiles/Profile-aluminium-30x30L-Type-I-rainure-6.webp" width=400 title="Profilé aluminium 30x30L Type I rainure 6" alt="Profilé aluminium 30x30L Type I rainure 6">
 
 Les profilés en aluminium sont fixés à l'aide d'équerres d'assemblage et de boulons M6, non représentés sur le plan 3D.
 
-<img src="images/Equerre-dassemblage-30-I-type-rainure-6.webp" width=400 title="Équerre d'assemblage 30 I type rainure 6" alt="Équerre d'assemblage 30 I type rainure 6">
+<img src="/images/voiles/Equerre-dassemblage-30-I-type-rainure-6.webp" width=400 title="Équerre d'assemblage 30 I type rainure 6" alt="Équerre d'assemblage 30 I type rainure 6">
 
 Une vue 3D du système suit :
 
-<img src="images/support_fixation_mat.png" width=400 title="Support de mât en profilé aluminium" alt="Support de mât en profilé aluminium">
+<img src="/images/voiles/support_fixation_mat.png" width=400 title="Support de mât en profilé aluminium" alt="Support de mât en profilé aluminium">
 
 Les blocs de bois sont des blocs de contreplaqué marine de 30 mm qui seront usinés pour accueillir les roulements coniques, lesquels servent à annuler les moments du mât dus au vent. Ces blocs sont percés de part en part. Une tige en acier fera office de goupille et maintiendra les blocs en place. Le bloc de bois inférieur est également usiné dans du contreplaqué 30mm et sert à recevoir le mât sur une butée à billes.
 
 
 Le système de commande s’insère dans la cage inférieure et se fixe aux profilés en aluminium à l’aide de boulons, comme illustré sur la vue suivante.
 
-<img src="images/Support_mat_avec_sys_commande.png" width=400 title="Support de mât en profilé aluminium avec système de commande" alt="Support de mât en profilé aluminium avec système de commande">
+<img src="/images/voiles/Support_mat_avec_sys_commande.png" width=400 title="Support de mât en profilé aluminium avec système de commande" alt="Support de mât en profilé aluminium avec système de commande">
 
 
 #### Caractéristiques
@@ -62,7 +62,7 @@ Le système de commande s’insère dans la cage inférieure et se fixe aux prof
 
 Le montage du mât s’effectue selon les étapes suivantes :
 
-<img src="images/montage_mat.png" width=400 title="Schéma de montage des mâts" alt="Schéma de montage des mâts">
+<img src="/images/voiles/montage_mat.png" width=400 title="Schéma de montage des mâts" alt="Schéma de montage des mâts">
 
 1. **Préparation** :  
 	Monter le joint spi, le circlips supérieur et l’intérieur du roulement conique supérieur sur le mât avant de l’insérer dans le support.

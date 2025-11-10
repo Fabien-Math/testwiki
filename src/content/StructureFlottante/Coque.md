@@ -39,7 +39,7 @@ Le squelette comporte des encoches spécifiques sur chaque couple pour s’assem
 - Couple 7 : **150 mm**  
 - Couple 8 : **140 mm**  
 
-![Squelette du Zéphyr](images/Squelette.png)
+![Squelette du Zéphyr](/images/structure/Squelette.png)
 
 ### Armature
 
@@ -53,7 +53,7 @@ Ces chevrons traversent toute la longueur du bateau, de l’avant à l’arrièr
 
 À l’avant, un système spécifique permet de fixer le nez démontable du Zéphyr. (Cf [Page coque](#nez))
 
-![Armature du Zéphyr](images/StructureChevronCoque.png)
+![Armature du Zéphyr](/images/structure/StructureChevronCoque.png)
 
 ### Forme de la coque
 
@@ -64,15 +64,15 @@ La **forme de la coque** est créée grâce à des blocs de polystyrènes façon
 Le **nez** du navire sera fixé à l’aide de vis M6. L’étanchéité sera assurée par l’utilisation d’inserts et de joints, tout en conservant la possibilité de démonter le nez pour faciliter la sortie du navire du local. Des perçages ont été réalisés dans le polystyrène pour y insérer des tubes en PVC, lesquels seront intégrés à la stratification. Afin de garantir l’étanchéité, ces tubes seront obturés à l’aide de bouchons en néoprène.
 
 
-<img src="images/Schema_fixation_nez_bateau.JPEG" width=400 alt="Schéma de fixation du nez au bateau">
-<img src="images/Nez3D.png" width=400 alt="Nez 3D du bateau">
+<img src="/images/structure/Schema_fixation_nez_bateau.JPEG" width=400 alt="Schéma de fixation du nez au bateau">
+<img src="/images/structure/Nez3D.png" width=400 alt="Nez 3D du bateau">
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Organisation interne
 La coque est divisée en 5 compartiments vides, appelés *boites*, numérotées de **1** à **5**, chacune ayant une fonction spécifique :
 
-<img src="images/Squelette.png" alt="schéma explicitant différence entre boîtes et sections" width=400/>
+<img src="/images/structure/Squelette.png" alt="schéma explicitant différence entre boîtes et sections" width=400/>
 
 | **Boite** | **Section** | **Description** |
 |-----------|-------------|------------------|
@@ -85,7 +85,7 @@ La coque est divisée en 5 compartiments vides, appelés *boites*, numérotées 
 ### Étanchéité et connectiques
 - La **boite N°1** est entièrement étanche et isolée des autres. Une boîte d’acquisition devra être conçue sur mesure pour gérer les connectiques et l’alimentation de ses composants.
 - Les **boites N°2 à N°5** seront étanches uniquement à leur base. Elles sont reliées par des câbles d’alimentation électrique et d’information pour assurer le fonctionnement coordonné de tous les systèmes.  
-  *(Pour plus de détails, voir [Page Électricité](../ArchitectureSysteme/Electricite))*
+  *(Pour plus de détails, voir [Page Électricité](/docs/ArchitectureSysteme/Electricite))*
 
 - Entre les **boîtes N°4 et N°5**, nous aurons la **baie de capteurs**.
 
@@ -111,7 +111,7 @@ https://www.fixtureworks.com/store/pc/quick-release-clamps-ball-lock-fasteners-c
 
 #### Boite N°1
 
-Dans cette boîte, vous trouverez tous les équipements listés [ici](Equipement#liste-des-équipements-présents-dans-le-zéphyr) :
+Dans cette boîte, vous trouverez tous les équipements listés [ici](/docs/ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr) :
 
 - **LattePanda Alpha**
   - Ordinateur de bord du Zéphyr
@@ -136,20 +136,20 @@ Une station suspendue sur amortisseurs, conçue pour servir de plateforme anti-c
 Voici la liste des équipements présents dans la **Boite N°2** :
 
 - **Système de maintien de la voile N°1**
-- **Réducteur du mât** (Cf [Page voile](../Voiles/Voile#système-de-commande))
-- **Moteur du mât** (Cf [Page équipement](../ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
-- **Batterie principale** (Cf [Page équipement](../ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
-- **Passage des câbles d'alimentation** (Cf [Page électricité](../ArchitectureSysteme/Electricite))
-- **Passage des câbles d'information** (Cf [Page électricité](../ArchitectureSysteme/Electricite))
+- **Réducteur du mât** (Cf [Page voile](/docs/VoilesMats/Voile#système-de-commande))
+- **Moteur du mât** (Cf [Page équipement](/docs/ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
+- **Batterie principale** (Cf [Page équipement](/docs/ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
+- **Passage des câbles d'alimentation** (Cf [Page électricité](/docs/ArchitectureSysteme/Electricite))
+- **Passage des câbles d'information** (Cf [Page électricité](/docs/ArchitectureSysteme/Electricite))
 - **Capteur de température**
 - **Capteur hygrométrique**
 
 #### Boite N°3
 
-- **Puits de dérive** (Cf [Page coque](Coque#Dérive))
-- **Système de fixation de la dérive** (Cf [Page coque](Coque#Dérive))
-- **Contrôleur de charge des batteries** (Cf [Page équipement](../ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
-- **Passage des câbles d'information** (Cf [Page électricité](../ArchitectureSysteme/Electricite))
+- **Puits de dérive** (Cf [Page coque](/docs/StructureFlottante/Coque#Dérive))
+- **Système de fixation de la dérive** (Cf [Page coque](/docs/StructureFlottante/Coque#Dérive))
+- **Contrôleur de charge des batteries** (Cf [Page équipement](/docs/ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
+- **Passage des câbles d'information** (Cf [Page électricité](/docs/ArchitectureSysteme/Electricite))
 - **Capteur de température**
 - **Capteur hygrométrique**
 
@@ -166,11 +166,11 @@ La distance entre le puits de dérive et le bord de la boîte étant restreinte,
 #### Boite N°4
 
 - **Système de maintien de la voile N°2**
-- **Réducteur du mât** (Cf [Page voile](../Voiles/Voile#système-de-commande))
-- **Moteur du mât** (Cf [Page équipement](../ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
-- **Batterie principale** (Cf [Page équipement](../ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
-- **Passage des câbles d'alimentation** (Cf [Page électricité](../ArchitectureSysteme/Electricite))
-- **Passage des câbles d'information** (Cf [Page électricité](../ArchitectureSysteme/Electricite))
+- **Réducteur du mât** (Cf [Page voile](/docs/VoilesMats/Voile#système-de-commande))
+- **Moteur du mât** (Cf [Page équipement](/docs/ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
+- **Batterie principale** (Cf [Page équipement](/docs/ArchitectureSysteme/Equipement#liste-des-équipements-présents-dans-le-zéphyr))
+- **Passage des câbles d'alimentation** (Cf [Page électricité](/docs/ArchitectureSysteme/Electricite))
+- **Passage des câbles d'information** (Cf [Page électricité](/docs/ArchitectureSysteme/Electricite))
 - **Capteur de température**
 - **Capteur hygrométrique**
 

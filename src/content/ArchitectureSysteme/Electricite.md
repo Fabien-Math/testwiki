@@ -19,7 +19,7 @@ Deux faisceaux de câbles sont prévus :
 
 Pour éviter la déformation des signaux par les champs électromagnétiques des câbles de puissance, ces deux faisceaux seront séparés de chaque côté des boîtes (Cf rendu provisoire ci-dessous).  
 
-<img src="images/FaisceauxElectrique.png" alt="Rendu provisoire des faisceaux électrique" width=600/>  
+<img src="/images/archi/FaisceauxElectrique.png" alt="Rendu provisoire des faisceaux électrique" width=600/>  
 
 - **Faisceau de puissance** (représenté en rouge) : Ce faisceau regroupe tous les câbles qui alimentent les équipements sans autre fonction que l'alimentation électrique.
   
@@ -48,7 +48,7 @@ Dans la **boîte n°3**, il est prévu d'installer le **contrôleur de charge** 
 | Les batteries doivent pouvoir rentrer dans les boîtes | / | / | / |
 | Les panneaux solaires doivent loger sur les bras des flotteurs | Dimensions : 125x110 cm | / | / |
 | Les panneaux solaires doivent résister au milieu marin | Durabilité | Excellente | / |
-| Être capable de charger les batteries en plus d'alimenter le système lors de conditions normales | Ratio $\frac{Production}{Consommation}$ | 1 | / |
+| Être capable de charger les batteries en plus d'alimenter le système lors de conditions normales | Ratio Production / Consommation | 1 | / |
 
 *Consommation inférieure à 1 Wh avec déclenchement automatique en cas d'avarie majeure. 
 
@@ -64,15 +64,15 @@ Le schéma électrique est à compléter. Il ne représente pas toutes les conne
 
 Représente les connexions des différents éléments du Zéphyr  
 
-<img src="images/electrical_diagram.png" alt="Diagramme électrique complet" width=400/>
+<img src="/images/archi/electrical_diagram.png" alt="Diagramme électrique complet" width=400/>
 
 ### Puissance
 Représente les connexions pour transmettre du courant aux éléments du Zéphyr  
 
-<img src="images/power_diagram.png" alt="Diagramme électrique de puissance" width=400/>
+<img src="/images/archi/power_diagram.png" alt="Diagramme électrique de puissance" width=400/>
 
 ### Information
 Représente les connexions pour transmettre de l'information aux éléments du Zéphyr  
 
-<img src="images/info_diagram.png" alt="Diagramme électrique d'information" width=400/>
+<img src="/images/archi/info_diagram.png" alt="Diagramme électrique d'information" width=400/>
 

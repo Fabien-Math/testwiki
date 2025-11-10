@@ -15,11 +15,11 @@ Le **Zéphyr** étant un trimaran, il se compose d'une **coque principale** et d
 
 Hauteur des chevrons pour les fixation des tubes en aluminium aux flotteurs :  
 
-<img src="images/HauteurChevron.png" alt="Hauteur des chevrons pour la fixation des tubes des flotteurs" width=400/>
+<img src="/images/structure/HauteurChevron.png" alt="Hauteur des chevrons pour la fixation des tubes des flotteurs" width=400/>
 
 Le modèle 3D des flotteurs est donné ci-dessous :
 
-<img src="images/flotteur.png" width=400 alt="Vue 3D d'un flotteur" title="Vue 3D d'un flotteur">
+<img src="/images/structure/flotteur.png" width=400 alt="Vue 3D d'un flotteur" title="Vue 3D d'un flotteur">
 
 
 ### Fixation des Flotteurs à la Coque
@@ -27,7 +27,7 @@ Les flotteurs seront accrochés à la coque principale par **3 tubes en aluminiu
 
 Des **brides de fixation** seront installées sur des **bastaings** fixés au squelette en contreplaqué des flotteurs. Voir schéma ci-dessous :
 
-<img src="images/BastaingBrides.png" width=400 alt="Vue 3D d'un des points d'accroche'" title="Vue 3D d'un  des points d'accroche">
+<img src="/images/structure/BastaingBrides.png" width=400 alt="Vue 3D d'un des points d'accroche'" title="Vue 3D d'un  des points d'accroche">
 
 
 Un guide a été conçu afin de percer les bastaings avec un écartement précis. Ce guide permet de positionner les inserts de manière à aligner correctement les brides, assurant ainsi un placement optimal des tubes.

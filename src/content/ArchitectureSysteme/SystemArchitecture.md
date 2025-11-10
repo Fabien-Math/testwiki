@@ -131,14 +131,14 @@ Le choix du contrôleur de moteur à pas (stepper motor controller) est à déte
 
 **Schéma global de la planification de la navigation**
 
-<img src="images/NavPlanning_2.png" width=1000 title="Schéma global de la planification de la navigation" alt="Schéma global de la planification de la navigation">
+<img src="/images/archi/NavPlanning_2.png" width=1000 title="Schéma global de la planification de la navigation" alt="Schéma global de la planification de la navigation">
 
 
 ### Algorithmes
 
 #### Schéma de decision du Zéphyr
 
-<img src="images/DecisionScheme.png" width=800 title="Schéma de decision du Zéphyr" alt="Schéma de decision du Zéphyr">
+<img src="/images/archi/DecisionScheme.png" width=800 title="Schéma de decision du Zéphyr" alt="Schéma de decision du Zéphyr">
 
 
 #### Évitement d'obstacle
