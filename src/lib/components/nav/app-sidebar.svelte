@@ -126,9 +126,9 @@
 	</Sidebar.Header>
 	<Sidebar.Content>
 		<NavMain items={data.navMain} />
-		<NavStructure items={data.structureFlottante} />
-		<NavVoiles items={data.voilesMats} />
-		<NavArchitecture items={data.architectureSysteme} />
+		<NavStructure items={data.structure} />
+		<NavVoiles items={data.voiles} />
+		<NavArchitecture items={data.architecture} />
 		<NavCodes items={data.codes} />
 	</Sidebar.Content>
 	<Sidebar.Footer>
