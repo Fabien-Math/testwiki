@@ -1,86 +1,101 @@
-
-import type { NavItem, SocialLink } from "$lib/types/nav";
-
+import type { FirebaseOptions } from 'firebase/app';
 import {
-    Boxes,
-    Paintbrush,
-    Workflow,
-    Zap
-} from 'lucide-svelte';
-import type { Feature, PromoConfig, SiteConfig } from "./types/config";
+	PUBLIC_FIREBASE_API_KEY,
+	PUBLIC_FIREBASE_AUTH_DOMAIN,
+	PUBLIC_FIREBASE_PROJECT_ID,
+	PUBLIC_FIREBASE_STORAGE_BUCKET,
+	PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+	PUBLIC_FIREBASE_APP_ID,
+	PUBLIC_FIREBASE_MEASUREMENT_ID
+} from '$env/static/public';
+import { type FirebaseEnvVars, isValidFirebaseConfig } from './types/firebase.js';
+/**
+ * @module FirebaseConfig
+ */
 
+/**
+ * Singleton class that manages Firebase configuration.
+ * Implements the Singleton pattern to ensure only one Firebase config instance exists.
+ *
+ * @example
+ * // Get Firebase configuration
+ * const config = FirebaseConfig.getInstance().getConfig();
+ *
+ * // Initialize Firebase app
+ * const app = initializeApp(config);
+ *
+ * @throws {Error} If any required Firebase configuration variables are missing or invalid
+ */
+class FirebaseConfig {
+	private static instance: FirebaseConfig;
+	private readonly config: FirebaseOptions;
 
-export const siteConfig: SiteConfig = {
-    version: '0.0.1',
-    title: 'Documentation',
-    description:
-        'Comprehensive documentation for your project. Built with Svelte 5, MDSvex, Tailwind CSS, and shadcn/ui components.',
-    github: 'https://github.com/code-gio/svelte-firekit-docs',
-    npm: '',
+	/**
+	 * Private constructor to prevent direct instantiation.
+	 * Validates all required environment variables are present and creates config.
+	 *
+	 * @private
+	 * @throws {Error} If any required Firebase configuration variables are missing or invalid
+	 */
+	private constructor() {
+		const config = this.getFirebaseConfig();
+		if (!isValidFirebaseConfig(config)) {
+			throw new Error('Invalid Firebase configuration. Please check your environment variables.');
+		}
 
-    quickLinks: [
-        { title: 'Customize', href: '/docs/customize' },
-        { title: 'Examples', href: '/docs/examples' }
-    ],
-    logo: '/logo.svg',
-    logoDark: '/logo-white.svg',
-    favicon: '/favicon.png',
-};
+		this.config = config;
+	}
 
+	/**
+	 * Gets the Firebase configuration from environment variables.
+	 *
+	 * @private
+	 * @returns {Partial<FirebaseEnvVars>} The Firebase configuration
+	 */
+	private getFirebaseConfig(): Partial<FirebaseEnvVars> {
+		return {
+			apiKey: PUBLIC_FIREBASE_API_KEY,
+			authDomain: PUBLIC_FIREBASE_AUTH_DOMAIN,
+			projectId: PUBLIC_FIREBASE_PROJECT_ID,
+			storageBucket: PUBLIC_FIREBASE_STORAGE_BUCKET,
+			messagingSenderId: PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+			appId: PUBLIC_FIREBASE_APP_ID,
+			measurementId: PUBLIC_FIREBASE_MEASUREMENT_ID
+		};
+	}
 
-export let navItems: NavItem[] = [
-    {
-        title: 'Docs',
-        href: '/docs'
-    },
+	/**
+	 * Gets the singleton instance of FirebaseConfig.
+	 * Creates a new instance if one doesn't exist.
+	 *
+	 * @returns {FirebaseConfig} The singleton FirebaseConfig instance
+	 * @throws {Error} If any required Firebase configuration variables are missing or invalid
+	 */
+	static getInstance(): FirebaseConfig {
+		if (!FirebaseConfig.instance) {
+			FirebaseConfig.instance = new FirebaseConfig();
+		}
+		return FirebaseConfig.instance;
+	}
 
-];
+	/**
+	 * Gets the Firebase configuration options.
+	 *
+	 * @returns {FirebaseOptions} The Firebase configuration options
+	 */
+	getConfig(): FirebaseOptions {
+		return this.config;
+	}
+}
 
-export let socialLinks: SocialLink[] = [
-
-    {
-        title: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/giovanirodriguez26/',
-        icon: 'linkedin'
-    },
-    {
-        title: 'GitHub',
-        href: 'https://github.com/code-gio',
-        icon: 'github'
-    },
-
-];
-
-
-export const features: Feature[] = [
-    {
-        icon: Boxes,
-        title: 'Component Library',
-        description: 'Built on top of shadcn/ui, offering comprehensive accessible components with complete documentation'
-    },
-    {
-        icon: Workflow,
-        title: 'Type Safe',
-        description: 'Fully typed with TypeScript, providing excellent IDE support and reliable development experience'
-    },
-    {
-        icon: Paintbrush,
-        title: 'Fully Customizable',
-        description: 'Easily customize themes, layouts, and components to match your brand identity and requirements'
-    },
-    {
-        icon: Zap,
-        title: 'Fast & Modern',
-        description: 'Powered by Svelte 5, MDSvex, and TailwindCSS for optimal performance and developer experience'
-    }
-];
-
-export let promoConfig: PromoConfig = {
-    title: 'Need help with your project?',
-    description:
-        'I offer custom development services, consulting, and technical guidance for your web applications.',
-    ctaText: "Let's work together",
-    ctaLink: 'mailto:info@codegio.com',
-    lightImage: '/images/dev-services-light.jpg',
-    darkImage: '/images/dev-services-dark.jpg'
-};
+/**
+ * Pre-initialized Firebase configuration instance.
+ * Use this to get Firebase configuration options directly.
+ *
+ * @example
+ * import { firebaseConfig } from './firebase-config';
+ * import { initializeApp } from 'firebase/app';
+ *
+ * const app = initializeApp(firebaseConfig);
+ */
+export const firebaseConfig = FirebaseConfig.getInstance().getConfig();
