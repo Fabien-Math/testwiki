@@ -202,14 +202,14 @@ let fileData: File;
 </script>
 
 <svelte:head>
-	<title>Svelte FireKit - Complete Firebase Integration for Svelte 5</title>
+	<title>Wiki Zéphyr</title>
 	<meta
 		name="description"
-		content="A comprehensive Svelte 5 library for Firebase integration with reactive state management, authentication, Firestore, Storage, and more. Build MVPs faster with zero-config setup."
+		content="Le wiki officiel du projet Zéphyr par l'association HydroSharks"
 	/>
 	<meta
 		name="keywords"
-		content="svelte, firebase, firestore, authentication, sveltekit, mvp, realtime, typescript"
+		content="HydroSharks, hydro, hydrosharks, trimaran, autonome, autonomous, navire, voilier, sailboat, étudiant, zéphyr, Zéphyr, recherche, bateau, plateforme, projet"
 	/>
 	
 	<!-- Canonical URL -->
@@ -217,30 +217,24 @@ let fileData: File;
 	
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Svelte FireKit - Complete Firebase Integration for Svelte 5" />
-	<meta property="og:description" content="A comprehensive Svelte 5 library for Firebase integration with reactive state management, authentication, Firestore, Storage, and more. Build MVPs faster with zero-config setup." />
+	<meta property="og:title" content="Wiki Zéphyr" />
+	<meta property="og:description" content="Le wiki officiel du projet Zéphyr par l'association HydroSharks" />
 	<meta property="og:url" content="https://svelte-firekit.com/" />
-	<meta property="og:site_name" content="Svelte FireKit" />
+	<meta property="og:site_name" content=Wiki Zéphyr" />
 	<meta property="og:image" content="https://svelte-firekit.com/logo.svg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
-	<meta property="og:image:alt" content="Svelte FireKit - Complete Firebase Integration for Svelte 5" />
+	<meta property="og:image:alt" content="Wiki Zéphyr" />
 	
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Svelte FireKit - Complete Firebase Integration for Svelte 5" />
-	<meta name="twitter:description" content="A comprehensive Svelte 5 library for Firebase integration with reactive state management, authentication, Firestore, Storage, and more. Build MVPs faster with zero-config setup." />
-	<meta name="twitter:image" content="https://svelte-firekit.com/logo.svg" />
-	<meta name="twitter:creator" content="@code_gio" />
-	
+
 	<!-- Organization structured data -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "SoftwareApplication",
 			"name": "Svelte FireKit",
-			"description": "A comprehensive Svelte 5 library for Firebase integration with reactive state management, authentication, Firestore, Storage, and more. Build MVPs faster with zero-config setup.",
-			"url": "https://svelte-firekit.com/",
+			"description": "Le wiki officiel du projet Zéphyr par l'association HydroSharks",
+			"url": "https://hydrosharks.eu/docs/",
 			"applicationCategory": "DeveloperApplication",
 			"operatingSystem": "Any",
 			"programmingLanguage": "TypeScript",
@@ -252,9 +246,9 @@ let fileData: File;
 			"offers": {
 				"@type": "Offer",
 				"price": "0",
-				"priceCurrency": "USD"
+				"priceCurrency": "EUR"
 			},
-			"codeRepository": "https://github.com/code-gio/svelte-firekit"
+			"codeRepository": "https://github.com/Fabien-Math/testwiki"
 		}
 	</script>
 	
@@ -264,12 +258,12 @@ let fileData: File;
 			"@context": "https://schema.org",
 			"@type": "WebSite",
 			"name": "Svelte FireKit",
-			"url": "https://svelte-firekit.com/",
+			"url": "https://hydrosharks.eu/docs/",
 			"potentialAction": {
 				"@type": "SearchAction",
 				"target": {
 					"@type": "EntryPoint",
-					"urlTemplate": "https://svelte-firekit.com/docs?q={search_term_string}"
+					"urlTemplate": "https://hydrosharks.eu/docs?q={search_term_string}"
 				},
 				"query-input": "required name=search_term_string"
 			}
@@ -308,7 +302,7 @@ let fileData: File;
 						Get Started
 					</Button>
 
-					<Button variant="outline" size="lg" href="https://github.com/code-gio/svelte-firekit">
+					<Button variant="outline" size="lg" href="https://github.com/Fabien-Math/testwiki">
 						<IconBrandGithub />
 						GitHub
 					</Button>

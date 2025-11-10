@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts">svelte firekit -
 	import DocRenderer from '$lib/components/docs/doc-renderer.svelte';
 	import type { PageData } from './$types.js';
 	import { page } from '$app/stores';
@@ -11,10 +11,15 @@
 </script>
 
 <svelte:head>
-	<title>{title} - Svelte FireKit</title>
-	<meta name="description" content={description} />
-	<meta name="keywords" content="svelte, firebase, firestore, authentication, sveltekit, {slug}" />
-	
+	<title>Wiki Zéphyr</title>
+	<meta
+		name="description"
+		content="Le wiki officiel du projet Zéphyr par l'association HydroSharks"
+	/>
+	<meta
+		name="keywords"
+		content="HydroSharks, hydro, hydrosharks, trimaran, autonome, autonomous, navire, voilier, sailboat, étudiant, zéphyr, Zéphyr, recherche, bateau, plateforme, projet"
+	/>
 	<!-- Canonical URL -->
 	<link rel="canonical" href={url} />
 	
