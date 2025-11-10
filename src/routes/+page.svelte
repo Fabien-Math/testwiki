@@ -108,7 +108,7 @@
 		<div class="relative mx-auto max-w-7xl px-4 pt-20 pb-16 sm:px-6 lg:px-8">
 			<div class="text-center">
 				<h1 class="mb-6 text-5xl font-bold text-slate-900 md:text-6xl dark:text-white">
-					Hydro<span class="text-blue-600 dark:text-blue-400">Sharks</span>
+					Hydro<span class="text-[#3DD1F2]">Sharks</span>
 				</h1>
 
 				<p class="mx-auto mb-8 max-w-3xl text-xl text-slate-600 dark:text-slate-300">
