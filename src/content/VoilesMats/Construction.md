@@ -1,6 +1,5 @@
 ---
-title: Construction
-description: Explore the powerful features that make this documentation template stand out
+sort: 3
 ---
 
 # Construction

@@ -1,6 +1,5 @@
 ---
-title: Voiles
-description: Explore the powerful features that make this documentation template stand out
+sort: 1
 ---
 
 # Voiles
@@ -9,9 +8,7 @@ Chacune de ses voiles sont des ***wingsails***, c'est-à-dire des ***voiles rigi
 Pour être plus précis, les *wingsails* sont des voiles empruntées aux navires de courses, qui se composent d'un **plan principal** et d'un **volet**, et dont le principe est identique à celui des ailes d'avions : créer de la "*portance*" grâce au vent vitesse.  
 Le profil d'aile prévue pour les voiles est le même que celui des [**AC-72**](https://en.wikipedia.org/wiki/AC72) :  
 
-<img src="/images/voiles/profile_voile_zephyr.png" width=400 title="Profil d'aile des voiles du Zéphyr" alt="Profil ailes Zéphyr">
-
-![image](/static/images/voiles/profile_voile_zephyr.png)
+<img src="images/profile_voile_zephyr.png" width=400 title="Profil d'aile des voiles du Zéphyr" alt="Profil ailes Zéphyr">
 
 Le tissu ripstop a été retenu pour la fabrication des voiles, en raison de son tissage spécifique qui limite la propagation des déchirures. Les couleurs des voiles ont été définies en fonction de critères de visibilité : les voiles principales sont blanches afin d'assurer une bonne visibilité de nuit, tandis que les volets sont orange pour être facilement repérables de jour. Ce choix de couleurs vise également à éviter toute confusion avec le balisage maritime, le orange n'étant pas utilisé dans ce contexte.
 
