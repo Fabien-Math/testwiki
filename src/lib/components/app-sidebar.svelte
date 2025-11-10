@@ -1,31 +1,103 @@
 <script lang="ts">
+	import NavDocuments from './nav-components.svelte';
+	import NavMain from './nav-main.svelte';
+	import NavSecondary from './nav-secondary.svelte';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
-	import { siteConfig } from '$lib/config';
-	import GalleryVerticalEnd from 'lucide-svelte/icons/gallery-vertical-end';
 	import type { ComponentProps } from 'svelte';
-	let { ref = $bindable(null), ...restProps }: ComponentProps<typeof Sidebar.Root> = $props();
-	import { docsNavigation } from '$lib/components/doc-navigation.svelte';
-	import { page } from '$app/state';
-	import SocialMedia from './social-media.svelte';
-	const path = $derived(page.url.pathname);
+	
+	const data = {
+		navMain: [
+			{
+				title: 'Home',
+				url: '/docs'
+			}
+		],
+
+		
+		structureFlottante: [
+			{
+				name: 'Coque',
+				url: '/docs/StructureFlottante/Coque'
+			},
+			{
+				name: 'Flotteurs',
+				url: '/docs/StructureFlottante/Flotteur'
+			},
+			{
+				name: 'Baie de capteur',
+				url: '/docs/StructureFlottante/BaieDeCapteur'
+			},
+			{
+				name: 'Dérive',
+				url: '/docs/StructureFlottante/Derive'
+			},
+			{
+				name: 'Études',
+				url: '/docs/StructureFlottante/Etudes'
+			},
+		],
+
+
+		voilesMats: [
+			{
+				name: 'Voiles',
+				url: '/docs/VoilesMats/Voile'
+			},
+			{
+				name: 'Mâts',
+				url: '/docs/VoilesMats/Mat'
+			},
+			{
+				name: 'Construction',
+				url: '/docs/VoilesMats/Construction'
+			},
+			{
+				name: 'Études',
+				url: '/docs/VoilesMats/Etudes'
+			},
+		],
+
+		architectureSysteme: [
+			{
+				name: 'Architecture système',
+				url: '/docs/ArchitectureSysteme/SystemArchitecture'
+			},
+			{
+				name: 'Électricité',
+				url: '/docs/ArchitectureSysteme/Electricite'
+			},
+			{
+				name: 'Équipements',
+				url: '/docs/ArchitectureSysteme/Equipement'
+			},
+		],
+
+		codes: [
+			{
+				name: 'Code commande volet',
+				url: '/docs/Codes/CommandeVolets'
+			},
+		],
+
+		navSecondary: [
+			{
+				title: 'Issues',
+				url: 'https://github.com/code-gio/svelte-firekit/issues'
+			}
+		],
+	};
+
+	let { ...restProps }: ComponentProps<typeof Sidebar.Root> = $props();
 </script>
 
-<Sidebar.Root bind:ref {...restProps}>
+<Sidebar.Root collapsible="offcanvas" {...restProps}>
 	<Sidebar.Header>
 		<Sidebar.Menu>
 			<Sidebar.MenuItem>
-				<Sidebar.MenuButton size="lg">
+				<Sidebar.MenuButton class="data-[slot=sidebar-menu-button]:!p-1.5">
 					{#snippet child({ props })}
 						<a href="/" {...props}>
-							<div
-								class="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground"
-							>
-								<GalleryVerticalEnd class="size-4" />
-							</div>
-							<div class="flex flex-col gap-0.5 leading-none">
-								<span class="font-semibold"> {siteConfig.title} </span>
-								<span class="">{siteConfig.version}</span>
-							</div>
+							<span class="text-base font-semibold">HydroSharks</span>
 						</a>
 					{/snippet}
 				</Sidebar.MenuButton>
@@ -33,40 +105,13 @@
 		</Sidebar.Menu>
 	</Sidebar.Header>
 	<Sidebar.Content>
-		<Sidebar.Group>
-			<Sidebar.Menu>
-				{#each docsNavigation.docNav as groupItem (groupItem.title)}
-					<Sidebar.MenuItem>
-						<Sidebar.MenuButton class="font-medium" isActive={path === groupItem.href}>
-							{#snippet child({ props })}
-								<a href={groupItem.href} {...props}>
-									{groupItem.title}
-								</a>
-							{/snippet}
-						</Sidebar.MenuButton>
-						{#if groupItem.items?.length}
-							<Sidebar.MenuSub>
-								{#each groupItem.items as item (item.title)}
-									<Sidebar.MenuSubItem>
-										<Sidebar.MenuSubButton isActive={path === item.href}>
-											{#snippet child({ props })}
-												<a href={item.href} {...props}>{item.title}</a>
-											{/snippet}
-										</Sidebar.MenuSubButton>
-									</Sidebar.MenuSubItem>
-								{/each}
-							</Sidebar.MenuSub>
-						{/if}
-					</Sidebar.MenuItem>
-				{/each}
-			</Sidebar.Menu>
-		</Sidebar.Group>
+		<NavMain items={data.navMain} />
+		<NavDocuments items={data.structureFlottante} />
+		<NavDocuments items={data.voilesMats} />
+		<NavDocuments items={data.architectureSysteme} />
+		<NavDocuments items={data.codes} />
 	</Sidebar.Content>
-	<div class="block sm:hidden">
-		<Sidebar.Footer>
-			<SocialMedia />
-		</Sidebar.Footer>
-	</div>
-
-	<Sidebar.Rail />
+	<Sidebar.Footer>
+		<NavSecondary items={data.navSecondary} />
+	</Sidebar.Footer>
 </Sidebar.Root>
