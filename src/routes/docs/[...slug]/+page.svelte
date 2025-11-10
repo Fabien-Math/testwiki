@@ -1,4 +1,4 @@
-<script lang="ts">svelte firekit -
+<script lang="ts">
 	import DocRenderer from '$lib/components/docs/doc-renderer.svelte';
 	import type { PageData } from './$types.js';
 	import { page } from '$app/stores';
