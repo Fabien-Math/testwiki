@@ -1,8 +1,8 @@
 <script lang="ts">
-	import NavDocuments from './nav-structure.svelte';
-	import NavDocuments from './nav-voiles.svelte';
-	import NavDocuments from './nav-codes.svelte';
-	import NavDocuments from './nav-architecture.svelte';
+	import NavStructure from './nav-structure.svelte';
+	import NavVoiles from './nav-voiles.svelte';
+	import NavCodes from './nav-codes.svelte';
+	import NavArchitecture from './nav-architecture.svelte';
 	import NavMain from './nav-main.svelte';
 	import NavSecondary from './nav-secondary.svelte';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
@@ -126,10 +126,10 @@
 	</Sidebar.Header>
 	<Sidebar.Content>
 		<NavMain items={data.navMain} />
-		<NavDocuments items={data.structureFlottante} />
-		<NavDocuments items={data.voilesMats} />
-		<NavDocuments items={data.architectureSysteme} />
-		<NavDocuments items={data.codes} />
+		<NavStructure items={data.structureFlottante} />
+		<NavVoiles items={data.voilesMats} />
+		<NavArchitecture items={data.architectureSysteme} />
+		<NavCodes items={data.codes} />
 	</Sidebar.Content>
 	<Sidebar.Footer>
 		<NavSecondary items={data.navSecondary} />
