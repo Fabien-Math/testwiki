@@ -27,9 +27,10 @@ Chaque partie importante du Zéphyr sera documentée dans une page distincte.
 <summary>Liste des pages du Wiki</summary>
 
 <ul>
-  <li><a href="StructureFlottante/">Page Structure Flottante</a></li>
-  <li><a href="VoilesMats/">Page Voiles et Mâts</a></li>
-  <li><a href="ArchitectureSysteme/">Page Architecture Système</a></li>
+  <li><a href="/docs/StructureFlottante/sommaire">Page Structure Flottante</a></li>
+  <li><a href="/docs/VoilesMats/sommaire">Page Voiles et Mâts</a></li>
+  <li><a href="/docs/ArchitectureSysteme/sommaire">Page Architecture Système</a></li>
+  <li><a href="/docs/Codes/sommaire">Page Codes</a></li>
 </ul>
 
 </details>
