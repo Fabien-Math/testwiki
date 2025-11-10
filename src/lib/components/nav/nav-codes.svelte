@@ -4,7 +4,7 @@
 	const sidebar = Sidebar.useSidebar();
 </script>
 
-<Sidebar.Group class="group-data-[collapsible=icon]:hidden">
+<Sidebar.Group>
 	<Sidebar.GroupLabel>Codes</Sidebar.GroupLabel>
 	<Sidebar.Menu>
 		{#each items as item (item.name)}
